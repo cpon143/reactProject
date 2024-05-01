@@ -1,0 +1,70 @@
+.secondary-section {
+  background-color: #DDDDDD;
+  padding: 60px 20px;
+  text-align: center;
+  /* margin-bottom: 100px; */
+}
+
+.secondary-section h2 {
+  font-size: 2rem;
+  color: #383838;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.partner-container {
+    padding: 10px 120px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .partner-logos {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .partner-logos img {
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    animation: slide 10s linear infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  .partner-logos img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .partner-logos:hover img {
+    animation-play-state: paused;
+    /* Pause animation when any logo image is hovered */
+  }
+  
+  .partner-logos:not(:hover) img {
+    animation-play-state: running;
+    /* Resume animation when not hovered */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+  
+    40% {
+      transform: translateX(calc(-50% - 20px));
+    }
+  
+    70% {
+      transform: translateX(calc(80% - 20px));
+    }
+  }

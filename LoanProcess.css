@@ -1,0 +1,105 @@
+.loan-container {
+    padding: 110px 140px;
+    background: linear-gradient(to bottom right,#c3f39c , #e0eb85,  #b59fdda6 );
+  }
+  
+  /* Add animation to the loan header */
+  .loan-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #383838;
+    margin-bottom: 2rem;
+    opacity: 0; /* Initially set opacity low */
+    animation: fadeIn 3s forwards; /* Apply fade-in animation with a duration of 1.5 seconds */
+  }
+  
+  /* Define fade-in animation keyframes */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start opacity: low */
+    }
+    100% {
+      opacity: 1; /* End opacity: fully visible */
+    }
+  }
+  
+  .progress-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+  }
+  
+  /* Remove animation properties from .grid-item */
+  .grid-item {
+    border: 2px solid #8B5AF0;
+    border-radius: 10px;
+    opacity: 0; /* Initially hide grid items */
+  }
+  
+  /* Define animation keyframes */
+  @keyframes slideIn {
+    0% {
+      transform: translateY(100%); /* Start position: move from bottom */
+      opacity: 0.3; /* Start opacity: low */
+    }
+    20% {
+      opacity: 0.6; /* Begin to increase opacity at 20% of the animation */
+    }
+    100% {
+      transform: translateY(0); /* End position: move to original position */
+      opacity: 1; /* End opacity: fully visible */
+    }
+  }
+  
+  
+  
+  .grid-item:hover{
+    box-shadow: 0 0 10px #8A41E8;
+  }
+  
+  .progress-bar {
+    height: 30px;
+    border-bottom: 1px solid #8B5AF0;
+    background-color: #8B5AF0;
+    border-top-left-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .grid-item:hover .progress-bar {
+    background-color: #6228aee4; /* Reset progress bar color on hover */
+  }
+  
+  .progress-bar-wrapper {
+    width: 100%;
+  }
+  
+  .progress-bar-wrapper {
+    border-bottom: 2px solid #8B5AF0;
+    /* Add border at the bottom only */
+    margin-bottom: 1rem;
+  }
+  
+  .loan-head{
+    color: #1c1c1c;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  
+  .loan-text {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* ---------------------new changes--------------------- */
+
+  .progress-circle{
+    text-align: center;
+  }

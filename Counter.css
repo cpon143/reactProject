@@ -1,0 +1,76 @@
+.counter-sec {
+  background-color: #DDDDDD;;
+  padding-bottom: 35px 0;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+  }
+  
+  
+  
+  .card-view {
+    padding: 30px 30px;
+    /* position: relative;
+    background-color: #ECECEB;
+    border: 3px solid #8A41E8;
+    border-radius: 20px;
+    border-style: groove; */
+  }
+  
+  .icon-container {
+    position: absolute;
+    top: -95px;
+    /*i made this change*/
+    left: 50%;
+    /* Adjust as needed */
+    transform: translateX(-50%);
+  }
+  
+  .icon {
+    width: 200px;
+    /* Adjust size as needed */
+    height: auto;
+  }
+  
+  
+  .card-view h3 {
+    text-align: center;
+  }
+  
+  /* .card-view:hover {
+    box-shadow: 0 0 10px #8A41E8;
+  } */
+  
+
+  /* For desktop and laptop screens */
+@media only screen and (min-width: 1024px) {
+  .card-grid {
+    gap: 4rem;
+  }
+}
+
+/* For tablet screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+/* For smartphone screens */
+@media only screen and (max-width: 767px) {
+  .card-view {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+
+  .icon-container {
+    top: -65px; /* Adjust position as needed */
+  }
+}

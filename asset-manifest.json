@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dc899bc.css",
+    "main.js": "/static/js/main.c081a9d6.js",
+    "static/js/453.0bf7d1e2.chunk.js": "/static/js/453.0bf7d1e2.chunk.js",
+    "static/media/Home.mp4": "/static/media/Home.f4c2d3f63143695c5578.mp4",
+    "static/media/why-us1.png": "/static/media/why-us1.4baa1f9b928ea044eef7.png",
+    "static/media/australia.png": "/static/media/australia.ca9b612488a1f0780880.png",
+    "static/media/new.png": "/static/media/new.0ebd71930ea39f019b48.png",
+    "static/media/united-states.png": "/static/media/united-states.4d9d990626a3df96a265.png",
+    "static/media/bank1.jpg": "/static/media/bank1.4c4342426758e1490639.jpg",
+    "static/media/united-kingdom.png": "/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
+    "static/media/bank2.jpg": "/static/media/bank2.a6c34d17459cf64a7b64.jpg",
+    "static/media/ok-icon.png": "/static/media/ok-icon.2463630ae1a9377f0afc.png",
+    "static/media/canada.png": "/static/media/canada.07849426f9b46d419f07.png",
+    "static/media/bank6.jpg": "/static/media/bank6.f983bc25da4e6eff0dbb.jpg",
+    "static/media/france.png": "/static/media/france.73f91b4e96d67f8a03f0.png",
+    "static/media/ireland.png": "/static/media/ireland.3747c6f6a4b9b4964184.png",
+    "static/media/bank3.jpg": "/static/media/bank3.7cd27204440324f4aaa3.jpg",
+    "static/media/bank4.jpg": "/static/media/bank4.409b47148481c932efdf.jpg",
+    "static/media/bank5.jpg": "/static/media/bank5.e184879be6ff8ace241c.jpg",
+    "static/media/logo.png": "/static/media/logo.9f754c35a1eed45123fc.png",
+    "static/media/germany.png": "/static/media/germany.cc670a050b591bf6656d.png",
+    "index.html": "/index.html",
+    "main.9dc899bc.css.map": "/static/css/main.9dc899bc.css.map",
+    "main.c081a9d6.js.map": "/static/js/main.c081a9d6.js.map",
+    "453.0bf7d1e2.chunk.js.map": "/static/js/453.0bf7d1e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dc899bc.css",
+    "static/js/main.c081a9d6.js"
+  ]
+}

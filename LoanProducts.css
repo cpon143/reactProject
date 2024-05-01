@@ -1,0 +1,59 @@
+/* Header Styles */
+.header {
+    background-color: #9362E7;
+    padding: 20px;
+    color: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    padding: 20px;
+  }
+  
+  .loan-section {
+    margin-bottom: 40px;
+  }
+  
+  .loan-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .loan-section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Media Query for Smartphone Views */
+  @media only screen and (max-width: 768px) {
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

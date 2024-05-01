@@ -1,0 +1,94 @@
+/* Reset Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Media Queries */
+/* @media screen and (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header nav ul li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header nav ul li a {
+    padding: 10px;
+  }
+
+  .video-container {
+    height: 50vh;
+  }
+
+  .text-overlay {
+    width: 100%;
+    padding: 80px 20px 10px 20px;
+  }
+
+  .partner-container {
+    padding: 10px 20px;
+  }
+
+  .partner-logos img {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video-container {
+    height: 70vh;
+  }
+
+  .text-overlay {
+    padding: 60px 20px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-element {
+    height: 100%;
+    width: auto;
+  }
+
+  .text-overlay {
+    width: 100%;
+    padding: 40px 20px 10px 20px;
+    align-self: center;
+  }
+} */

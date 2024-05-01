@@ -1,0 +1,128 @@
+.why-container {
+  background: linear-gradient(to bottom right, #e0eb85, #b59fdda6, #c3f39c);
+  padding: 60px 30px;
+
+}
+
+.why-part {
+  padding: 50px;
+}
+
+.hed-why {
+  font-size: 2.1rem;
+  color: #383838;
+  text-align: center;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.third-section {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  padding: 1.8rem 5rem;
+  align-items: center;
+  
+}
+
+
+
+/* .img-view {
+  animation-delay: 0.5s; 
+} */
+
+
+.left-part h2:first-child {
+  font-size: 2rem;
+  color: #383838;
+  white-space: nowrap;
+  margin-bottom: 0.8rem;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.why-hed-3rd {
+  font-size: 1.8rem;
+  color: #8A41E8;
+}
+
+.left-part p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ok-icon {
+  width: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.img-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-view img {
+
+  max-width: 100%;
+}
+
+
+/* media query */
+
+@media (max-width: 767px) {
+  /* Smartphone view styles */
+
+.why-container {
+  background: linear-gradient(to bottom right, #e0eb85, #b59fdda6, #c3f39c);
+  padding: 30px 15px; /* Reduced padding for smaller screens */
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column; /* Change to a single column layout */
+  align-items: center;
+  text-align: center;
+  padding: 1.8rem 1rem;
+}
+
+.left-part,
+.img-view {
+  padding: 0; /* Remove padding for better space utilization */
+}
+
+.why-part {
+  padding: 20px; /* Reduced padding for smaller screens */
+}
+
+.left-part h2:first-child {
+  font-size: 1.8rem; /* Decrease font size for smaller screens */
+  margin-bottom: 0.5rem; /* Adjust margin for smaller screens */
+}
+
+.why-hed-3rd {
+  font-size: 1.5rem; /* Decrease font size for smaller screens */
+}
+
+.left-part p {
+  font-size: 1rem; /* Decrease font size for smaller screens */
+  margin: 1rem 0; /* Adjust margin for smaller screens */
+}
+
+.ok-icon {
+  width: 1.5rem; /* Decrease icon size for smaller screens */
+}
+
+.img-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-view img {
+  max-width: 90%; /* Adjust maximum width for better fit on smaller screens */
+}
+
+}
